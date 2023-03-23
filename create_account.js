@@ -14,4 +14,4 @@ const addressData =mail+x+password;
 const account = web3.eth.accounts.create(web3.utils.randomHex(32), addressData);
 
 // log the new account's address
-console.log(account.address);
+console.log("Your Address : ",account.address);
