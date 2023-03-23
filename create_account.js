@@ -5,10 +5,12 @@ const web3 = new Web3('http://localhost:8545');
 
 // get the password from the user
 //const password = prompt('Enter a password for your new account');
-const password = "@passwordw"
+const mail = "lovachakravarthi@gmail.com";
+const password ="ChakriChax@123"
+const addressData =mail+password;
 
 // create a new account with the provided password
 const account = web3.eth.accounts.create(web3.utils.randomHex(32), password);
 
 // log the new account's address
-console.log(account.address);
+console.log(addressData);
